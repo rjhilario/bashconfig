@@ -1,5 +1,4 @@
 # /etc/bashrc
-
 # System wide functions and aliases
 # Environment stuff goes in /etc/profile
 
@@ -85,3 +84,17 @@ if ! shopt -q login_shell ; then # We're not a login shell
 fi
 PS1="\[\033[0;33m\]\342\224\214\342\224\200[\[\033[1;33m\]\$?\[\033[0;33m\]]\342\224\200[$(if [[ ${EUID} == 0 ]]; then echo '\u\[\033[1;34m\]@\[\033[0;33m\]\H'; else echo '\u\[\033[1;34m\]@\[\033[0;33m\]\H'; fi)\[\033[0;33m\]:\[\033[1;34m\]\w\[\033[0;33m\]]\n\[\033[0;33m\]\342\224\224\[\033[0m\]\[\033[0;33m\] "
 # vim:ts=4:sw=4
+
+# Eternal bash history.
+# ---------------------
+# Undocumented feature which sets the size to "unlimited".
+# http://stackoverflow.com/questions/9457233/unlimited-bash-history
+export HISTFILESIZE=
+export HISTSIZE=
+export HISTTIMEFORMAT="[%F %T] "
+# Change the file location because certain bash sessions truncate .bash_history file upon close.
+# http://superuser.com/questions/575479/bash-history-truncated-to-500-lines-on-each-login
+export HISTFILE=~/.bash_eternal_history
+# Force prompt to write history after every command.
+# http://superuser.com/questions/20900/bash-history-loss
+PROMPT_COMMAND="history -a; $PROMPT_COMMAND"

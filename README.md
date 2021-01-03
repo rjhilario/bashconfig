@@ -1,2 +1,2 @@
 # bashconfig
-Sample Bash Configs
+My sample bash config

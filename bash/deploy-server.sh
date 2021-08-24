@@ -2,9 +2,9 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" 'ht
     '{
         "facility": "sg1",
         "plan": "n2.xlarge.x86",
-        "hostname": "rj-esxi70-test",
+        "hostname": "rj-p2v-test01",
         "description": "RJ Test Deploy",
-        "operating_system": "windows_2012_r2",
+        "operating_system": "windows_2019",
         "tags": ["shell script deploy"],
         "public_ipv4_subnet_size": "28",
         "ip_adresses": 

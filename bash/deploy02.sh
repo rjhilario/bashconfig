@@ -5,6 +5,5 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" 'ht
         "hostname": "rj-enc-test",
         "description": "RJ Test Deploy",
         "operating_system": "windows_2019",
-        "tags": ["shell script deploy"],
-        "public_ipv4_subnet_size": "29"
+        "tags": ["shell script deploy"]
         }'

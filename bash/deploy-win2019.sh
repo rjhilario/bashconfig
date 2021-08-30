@@ -4,6 +4,6 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "plan": "n2.xlarge.x86",
         "hostname": "rj-ub-test",
         "description": "RJ Test Deploy",
-        "operating_system": "ubuntu_20_04",
+        "operating_system": "windows_2019",
         "tags": ["shell script deploy"]
         }'

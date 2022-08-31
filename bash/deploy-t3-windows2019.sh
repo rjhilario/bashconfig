@@ -4,6 +4,6 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "plan": "t3.small.x86",
         "hostname": "rj-da-dc01",
         "description": "RJ Domain Controller",
-        "operating_system": "windows_2019",
+        "operating_system": "windows_2019_standard",
         "tags": ["shell script deploy"]
         }'

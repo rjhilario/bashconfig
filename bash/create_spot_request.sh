@@ -7,8 +7,9 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
             "description": "spot_test",
             "hostname": "rj_spot_test",
             "plan": "c3.small.x86"
-    },
-    "metro": "da"
-}'
+         },
+        "max_bid_price": 1,
+        "metro": "da"
+        }'
 
 

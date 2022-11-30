@@ -1,1 +1,1 @@
-curl -X GET -H "Content-Type: application/json" -H "X-Consumer-Token: "$ctoken"" -H "X-Auth-Token: "$mytoken"" -H "X-Packet-Staff: true" "https://api.equinix.com/metal/v1/hardware-reservations/07ebca57-66c8-4fcd-8885-66e90c507748?include=server"
+curl -X GET -H "Content-Type: application/json" -H "X-Consumer-Token: "$ctoken"" -H "X-Auth-Token: "$mytoken"" -H "X-Packet-Staff: true" "https://api.equinix.com/metal/v1/hardware-reservations/${reservation_id}?include=server"

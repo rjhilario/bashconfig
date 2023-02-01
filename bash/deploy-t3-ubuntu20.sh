@@ -3,8 +3,8 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" 'ht
     '{
         "facility": "da6",
         "plan": "t3.small.x86",
-        "hostname": "rj-da-ubuntu-test",
-        "description": "RJ Ubuntu Test",
+        "hostname": "rj-da-kube01",
+        "description": "RJ Kubernetes Test",
         "operating_system": "ubuntu_20_04",
         "tags": ["shell script deploy"]
         }'

@@ -5,7 +5,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "plan": "t3.small.x86",
         "hostname": "rj-t3s-test01",
         "description": "RJ Test Deploy",
-        "operating_system": "custom_ipxe",
+        "operating_system": "ubuntu_20_04",
         "always_pxe": true,
         "ipxe_script_url": "https://boot.netboot.xyz/"
         "tags": ["shell script deploy"]

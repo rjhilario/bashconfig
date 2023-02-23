@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "da6",
         "plan": "t3.small.x86",
-        "hostname": "rj-custom-ipxe-test01",
+        "hostname": "rj-t3s-test01",
         "description": "RJ Test Deploy",
         "operating_system": "custom_ipxe",
         "always_pxe": true,

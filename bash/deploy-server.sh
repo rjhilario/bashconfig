@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" 'ht
         "facility": "da6",
         "plan": "t3.small.x86",
         "hostname": "rj-da-test01",
-        "description": "RJ Test Deploy",
+        "description": "RJ Test Deploy t3.small.x86",
         "operating_system": "vmware_esxi_7_0",
         "tags": ["shell script deploy"],
         "public_ipv4_subnet_size": "28",

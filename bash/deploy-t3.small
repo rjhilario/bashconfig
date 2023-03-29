@@ -3,8 +3,8 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "da6",
         "plan": "t3.small.x86",
-        "hostname": "rj-vpn-test",
-        "description": "RJ test VPN deploy",
+        "hostname": "rj-da-asl",
+        "description": "RJ AllStarLink Node Test",
         "operating_system": "ubuntu_20_04",
         "tags": ["shell script deploy"]
         }'

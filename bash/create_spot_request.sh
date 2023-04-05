@@ -1,7 +1,7 @@
 #!/bin/bash
 curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "https://api.equinix.com/metal/v1/projects/${project_id}/spot-market-requests" -d \
     '{
-        "devices_max": 1,
+        "devices_max": 2,
         "devices_min": 0,
       - "instance_attributes": {
             "always_pxe": true,

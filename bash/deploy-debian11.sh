@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "da6",
         "plan": "m3.small.x86",
         "hostname": "rj-da-debian11-test",
-        "description": "RJ Kubernetes test node",
+        "description": "RJ Dallas deploy Debian 11",
         "operating_system": "ubuntu_20_04",
         "tags": ["shell script deploy"]
         }'

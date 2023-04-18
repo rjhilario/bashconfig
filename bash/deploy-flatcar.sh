@@ -5,6 +5,6 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "plan": "m3.small.x86",
         "hostname": "rj-da-flatcar-test",
         "description": "RJ Dallas deploy Flatcar Linux",
-        "operating_system": "debian_11",
+        "operating_system": "flatcar_linux",
         "tags": ["shell script deploy"]
         }'

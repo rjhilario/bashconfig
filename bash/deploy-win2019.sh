@@ -2,7 +2,7 @@
 curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "https://api.equinix.com/metal/v1/projects/${project_id}/devices" -d \
     '{
         "facility": "da6",
-        "plan": "c3.small.x86",
+        "plan": "n3.xlarge.x86",
         "hostname": "rj-da-win2019",
         "description": "RJ Windows 2019 Test",
         "operating_system": "windows_2019",

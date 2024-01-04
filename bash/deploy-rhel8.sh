@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "am6",
         "plan": "c3.medium.x86",
-        "hostname": "rj-da-rheltest",
+        "hostname": "rj-am-rheltest",
         "description": "RJ Test Deploy RHEL8",
         "operating_system": "rhel_8",
         "tags": ["RHEL8 Test"]

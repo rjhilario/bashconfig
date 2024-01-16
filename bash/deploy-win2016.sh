@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "fr2",
         "plan": "c3.small.x86",
-        "hostname": "rj-da-windows2016-test",
+        "hostname": "rj-fr-win2k16",
         "description": "RJ Windows Test Deploy",
         "operating_system": "windows_2016",
         "tags": ["shell script deploy"]

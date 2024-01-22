@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "sv6",
         "plan": "c3.small.x86",
         "hostname": "rj-custom-deploy",
-        "description": "RJ Custom Deployment",
+        "description": "RJ Custom in SV",
         "operating_system": "custom_ipxe",
         "always_pxe": true,
         "ipxe_script_url": "https://boot.netboot.xyz/"

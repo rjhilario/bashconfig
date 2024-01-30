@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "am6",
         "plan": "c3.small.86",
-        "hostname": "rj-da-win2019",
+        "hostname": "rj-am-win2019",
         "description": "RJ Windows 2019 Test",
         "operating_system": "windows_2019",
         "tags": ["shell script deploy"]

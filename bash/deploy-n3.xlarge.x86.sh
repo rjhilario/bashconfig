@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "sg4",
         "plan": "n3.xlarge.x86",
-        "hostname": "rj-ty-n3.xlarge.x86",
+        "hostname": "rj-sg-n3.xlarge.x86",
         "description": "RJ n3.xlarge.x86 deployment in TY",
         "operating_system": "ubuntu_22_04",
         "tags": ["shell script deploy"]

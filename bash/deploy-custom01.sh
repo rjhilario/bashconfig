@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "sg4",
         "plan": "m3.large.x86",
-        "hostname": "rj-custom-deploy",
+        "hostname": "rj-sg-custom-deploy",
         "description": "RJ Custom in SV",
         "operating_system": "custom_ipxe",
         "always_pxe": true,

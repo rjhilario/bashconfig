@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "sg4",
         "plan": "c3.small.x86",
-        "hostname": "rj-fr-ubuntu20.04",
+        "hostname": "rj-sg-ubuntu20.04",
         "description": "RJ Ubuntu 20.04 deployment in FR",
         "operating_system": "ubuntu_20_04",
         "tags": ["shell script deploy"]

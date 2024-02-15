@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "ty11",
         "plan": "m3.xlarge.x86",
         "hostname": "rj-ty-rhel8",
-        "description": "RJ Deploy RHEL8 in AM6",
+        "description": "RJ Deploy RHEL8 in TY",
         "operating_system": "rhel_8",
         "tags": ["RHEL8 Test"]
         }'

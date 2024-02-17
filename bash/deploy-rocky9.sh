@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "ty11",
         "plan": "m3.large.x86",
         "hostname": "rj-ty-rocky9",
-        "description": "RJ Rocky 9 Linux Deployment in SG",
+        "description": "RJ Rocky 9 Linux Deployment in TY",
         "operating_system": "rocky_9",
         "tags": ["Rocky 9 Test"]
         }'

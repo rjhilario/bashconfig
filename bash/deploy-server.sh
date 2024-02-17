@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" 'ht
         "facility": "ty11",
         "plan": "m3.large.x86",
         "hostname": "rj-ty-m3.large.x86",
-        "description": "RJ Deploy Server Ubuntu 20.04 in SG4",
+        "description": "RJ Ubuntu 22.04 Deployment in TY",
         "operating_system": "ubuntu_22_04",
         "tags": ["Shell Script Deployment"],
         }'

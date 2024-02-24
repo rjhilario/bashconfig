@@ -1,7 +1,7 @@
 #!/bin/bash
 curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "https://api.equinix.com/metal/v1/projects/${project_id}/devices" -d \
     '{
-        "facility": "ty4",
+        "facility": "ty11",
         "plan": "c3.small.x86",
         "hostname": "rj-sg-debian11",
         "description": "RJ Debian 11 Deployment in SG",

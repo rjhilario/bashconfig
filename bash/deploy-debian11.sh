@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "ty11",
         "plan": "m3.large.x86",
-        "hostname": "rj-sg-debian11",
+        "hostname": "rj-ty-debian11",
         "description": "RJ Debian 11 Deployment in SG",
         "operating_system": "debian_11",
         "tags": ["shell script deploy"]

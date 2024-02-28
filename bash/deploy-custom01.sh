@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "ty11",
         "plan": "c3.small.x86",
         "hostname": "rj-ty-custom-deploy",
-        "description": "RJ Custom in SG",
+        "description": "RJ Custom Deployment in TY",
         "operating_system": "custom_ipxe",
         "always_pxe": true,
         "ipxe_script_url": "https://boot.netboot.xyz/"

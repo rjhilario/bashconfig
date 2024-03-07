@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "hk4",
         "plan": "m3.small.x86",
         "hostname": "rj-hk-win2019",
-        "description": "RJ Windows Server 2019 Deployment in SG",
+        "description": "RJ Windows Server 2019 Deployment in HK",
         "operating_system": "windows_2019",
         "tags": ["shell script deploy"]
         }'

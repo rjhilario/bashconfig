@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "hk4",
         "plan": "m3.small.x86",
-        "hostname": "rj-ty-custom-deploy",
+        "hostname": "rj-hk-custom-deploy",
         "description": "RJ Custom Deployment in TY",
         "operating_system": "custom_ipxe",
         "always_pxe": true,

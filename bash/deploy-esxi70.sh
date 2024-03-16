@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" 'ht
         "facility": "ny5",
         "plan": "c3.small.x86",
         "hostname": "rj-ny-esxi70",
-        "description": "RJ ESXi 7.0 Deployment in HK",
+        "description": "RJ ESXi 7.0 Deployment in NY",
         "operating_system": "vmware_esxi_7_0",
         "tags": ["shell script deploy"]
         }'

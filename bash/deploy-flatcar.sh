@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
     '{
         "facility": "ny5",
         "plan": "c3.small.x86",
-        "hostname": "rj-hk-flatcar-linux",
+        "hostname": "rj-ny-flatcar-linux",
         "description": "RJ Flatcar Linux Deployment in HK",
         "operating_system": "flatcar_linux",
         "tags": ["shell script deploy"]

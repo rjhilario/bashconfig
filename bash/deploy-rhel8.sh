@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "sv15",
         "plan": "c3.small.x86",
         "hostname": "rj-sv-rhel8",
-        "description": "RJ Deploy RHEL8 in NY",
+        "description": "RJ Deploy RHEL8 in SV",
         "operating_system": "rhel_8",
         "tags": ["RHEL8 Test"]
         }'

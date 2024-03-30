@@ -3,7 +3,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" 'ht
     '{
         "facility": "sv15",
         "plan": "c3.medium.x86",
-        "hostname": "rj-sv-c3.medium.x86",
+        "hostname": "rj-sv-c3.medium.x86-Ubuntu22",
         "description": "RJ Ubuntu 22.04 deployment in SV",
         "operating_system": "ubuntu_22_04",
         "tags": ["Shell Script Deployment"],

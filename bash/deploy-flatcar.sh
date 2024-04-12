@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "am6",
         "plan": "c3.medium.x86",
         "hostname": "rj-am-flatcar-linux",
-        "description": "RJ Flatcar Linux Deployment in SV",
+        "description": "RJ Flatcar Linux Deployment in AM",
         "operating_system": "flatcar_linux",
         "tags": ["shell script deploy"]
         }'

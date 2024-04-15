@@ -4,7 +4,7 @@ curl -X POST -H 'Content-Type: application/json' -H "X-Auth-Token: $mytoken" "ht
         "facility": "am6",
         "plan": "c3.medium.x86",
         "hostname": "rj-am-win2016",
-        "description": "RJ Windows Server 2016 Deployment in SV",
+        "description": "RJ Windows Server 2016 Deployment in AM",
         "operating_system": "windows_2016",
         "tags": ["shell script deploy"]
         }'
